@@ -1,0 +1,15 @@
+create table Employee(
+	employee_id int,
+	hash_password varchar(255) NOT NULL,
+	UNIQUE(hash_password),
+	PRIMARY KEY(employee_id)
+);
+
+create table Income(
+	income_id int AUTO_INCREMENT,
+	employee_id int,
+	month int,
+	income int,
+	FOREIGN KEY(employee_id) REFERENCES Employee(employee_id),
+	PRIMARY KEY(income_id)
+);
