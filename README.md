@@ -5,6 +5,7 @@ request --> dispatcherServlet --> Handler --> Service --> DAO --> DB --> And ret
 -----------------------------------------------------------------------------------------------------------------
 TODO
 
+
 1.use bootstrap to make the View better
 
 2.use Spring to combine the Hibernate
@@ -15,3 +16,5 @@ TODO
 
 5.Else...
 
+-----------------------------------------------------------------------------------------------------------------
+2018-07-19 BACKUP
